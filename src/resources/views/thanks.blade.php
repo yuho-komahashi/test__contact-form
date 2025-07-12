@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="thanks__button">
-            <a class="thanks__button-home"href="/" >HOME</a>
+            <button class="thanks__button-home" type="button" onclick="location.href='/'" >HOME</button>
         </div>
     </div>
 </body>

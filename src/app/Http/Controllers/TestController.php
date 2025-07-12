@@ -10,4 +10,15 @@ class TestController extends Controller
     {
         return view('register');
     }
+
+    public function login()
+    {
+        return view('login');
+    }
+
+    public function admin()
+    {
+        return view('admin');
+    }
+
 }

@@ -21,4 +21,6 @@ Route::get('/thanks', [ContactController::class, 'thanks']);
 
 
 Route::get('/register', [TestController::class, 'register']);
+Route::get('/login', [TestController::class, 'login']);
+Route::get('/admin', [TestController::class, 'admin']);
 

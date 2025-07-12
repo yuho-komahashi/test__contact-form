@@ -19,6 +19,7 @@
                     FashionablyLate
                 </div>
             </div>
+            @yield('button')
         </div>
     </header>
 

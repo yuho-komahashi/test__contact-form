@@ -20,10 +20,10 @@
                     </div>
                     <div class="contact-form__group--content">
                         <div class="contact-form__input--text-half">
-                            <input type="text" name="name" placeholder="例: 山田">
+                            <input type="text" name="last_name" placeholder="例: 山田">
                         </div>
                         <div class="contact-form__input--text-half">
-                            <input type="text" name="name" placeholder="例: 太郎">
+                            <input type="text" name="first_name" placeholder="例: 太郎">
                         </div>
                         <div class="contact-form__error">
                             <!--バリデーション用-->
@@ -38,13 +38,13 @@
                     <div class="contact-form__group--content">
                         <div class="contact-form__input--radio">
                             <div class="form__radio--item">
-                                <label><input type="radio" name="gender" value="男性" checked="checked">男性</label>
+                                <label><input type="radio" name="gender1" value="男性" checked="checked">男性</label>
                             </div>
                             <div class="form__radio--item">
-                                <label><input type="radio" name="gender" value="女性">女性</label>
+                                <label><input type="radio" name="gender2" value="女性">女性</label>
                             </div>
                             <div class="form__radio--item">
-                                <label><input type="radio" name="gender" value="その他">その他</label>
+                                <label><input type="radio" name="gender3" value="その他">その他</label>
                             </div>
                         </div>
                         <div class="contact-form__error">
@@ -117,7 +117,7 @@
                     </div>
                     <div class="contact-form__group--content">
                         <div class="contact-form__input--select">
-                            <select class="contact-form__select" name="inquiry">
+                            <select class="contact-form__select" name="content">
                                 <option value="">選択してください</option>
                             </select>
                             <div class="contact-form__error">
@@ -133,7 +133,7 @@
                     </div>
                     <div class="contact-form__group--content">
                         <div class="contact-form__input--textarea">
-                            <textarea name="content" rows="3" placeholder="お問い合わせ内容をご記載ください"></textarea>
+                            <textarea name="detail" rows="3" placeholder="お問い合わせ内容をご記載ください"></textarea>
                         </div>
                         <div class="contact-form__error">
                             <!--バリデーション用-->

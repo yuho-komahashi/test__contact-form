@@ -1,0 +1,12 @@
+.button_logout-link {
+    position: absolute;
+    top: 33px;
+    right: 96px;
+    width: 100px;
+    background-color: #f0f0f0;
+    border: 1px solid #D9C6B5;
+    font-size: 20px;
+    font-family: "Inika", sans-serif;
+    color: #D9C6B5;
+    z-index: 5;
+}

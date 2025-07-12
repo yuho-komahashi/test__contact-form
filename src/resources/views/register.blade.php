@@ -1,25 +1,41 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ログイン</title>
-    <link rel="stylesheet" href="{{ asset('css/sanitize.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/index.css') }}" />
-</head>
-<body>
-    <header class="header">
-        <div class="header__inner">
-            <div class="header-title">
-                <div class="header__logo">
-                    FashionablyLate
-                </div>
-            </div>
-        </div>
-    </header>
-    
-    <main>
+@extends('layouts.app')
 
-    </main>
-</body>
-</html>
+@section('css')
+<link rel="stylesheet" href="{{ asset('css/register.css') }}" />
+@endsection
+
+@section('title','ユーザー登録')
+
+@section('button')
+<div class="button__register">
+    <button class="button_register-link" type="button" onclick="location.href='/login'" >login</button>
+</div>
+@endsection
+
+@section('content')
+<div class="register-form__content">
+    <div class="register-form__content--inner">
+        <div class="register-form__heading">
+            Register
+        </div>
+        
+        <form class="register-form">
+            <div class="register-form__group">
+                <div class="register-form__label">お名前</div>
+                <input type="text" name="name" placeholder="例: 山田　太郎">
+            </div>
+            <div class="register-form__group">
+                <div class="register-form__label">メールアドレス</div>
+                <input type="email" name="email" placeholder="例: test@example.com">
+            </div>
+            <div class="register-form__group">
+                <div class="register-form__label">パスワード</div>
+                <input type="password" name="email" placeholder="例: coachtech1106">
+            </div>
+            <div class="register-form__button">
+                <button class="register-form__button-submit" type="submit">登録</button>
+            </div>
+        </form>
+    </div>
+</div>
+@endsection

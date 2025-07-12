@@ -39,12 +39,12 @@
 }
 
 .thanks__button-home{
-    display: inline-block;
     background-color: #82756A;
     color:#ffffff;
     text-decoration: none;
     width:140px;
     font-size: 20px;
-    padding: 10px 40px;
+    padding: 10px 30px;
     font-family: "Inika";
+    border:none;
 }
