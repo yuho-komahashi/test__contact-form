@@ -1,0 +1,125 @@
+.contact-form__content{
+    margin: 0 auto;
+    max-width: 1512px;
+    padding: 50px 20px;
+}
+
+.contact-form__heading{
+    margin-bottom: 50px;
+    text-align: center;
+    color:#8B7969;
+    font-size: 35px;
+}
+
+.contact-form{
+    margin: 0 auto;
+    width:970px;
+}
+
+.contact-form__group{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.contact-form__group--title{
+    width:310px;
+    margin-right: 40px;
+}
+
+.contact-form__label--item{
+    font-size: 20px;
+    color:#8B7969;
+}
+
+.contact-form__label--required{
+    font-size: 20px;
+    color: #FF9494;
+}
+
+.contact-form__group--content{
+    width:620px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form__group--content input,
+.contact-form__select,
+.contact-form__input--textarea textarea{
+    font-size: 14px;
+    color:#8B7969;
+    background-color: #f4f4f4;
+    padding: 10px 30px;
+    border: none;
+    font-family: "Inika", sans-serif;
+}
+
+.contact-form__input--text-half:first-child{
+    margin-right:40px;
+}
+
+.contact-form__input--text-half input{
+    width:290px;
+}
+
+.contact-form__input--radio{
+    display: flex;
+}
+
+.form__radio--item{
+    margin-right: 50px;
+    padding-left: 15px;
+}
+
+.form__radio--item label{
+    font-size: 18px;
+    color:#8B7969;
+}
+
+.form__radio--item input{
+    accent-color: #8B7969;
+    transform: scale(1.5);
+    margin-right: 5px;
+}
+
+.contact-form__input--text{
+    width:100%;
+}
+
+.contact-form__input--text input{
+    width:620px;
+}
+
+.contact-form__input--text-three-part input{
+    width:192px;
+}
+
+.contact-form__input--select select{
+    width:310px;
+}
+
+.contact-form__input--textarea{
+    width:620px;
+    height:130px;
+}
+
+.contact-form__input--textarea textarea{
+    width:100%;
+    height: 100%;
+}
+
+.contact-form__button{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.contact-form__button-submit{
+    width:160px;
+    height:40px;
+    font-size: 20px;
+    background-color: #82756A;
+    color:#ffffff;
+    border:none;
+    outline:none;
+    cursor:pointer;
+}
+

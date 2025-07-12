@@ -1,0 +1,50 @@
+.inika-regular {
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.thanks__wrapper{
+    margin: 0 auto;
+    max-width: 1512px;
+}
+
+.thanks__text{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #8B7969;
+    margin-top: 450px;
+    margin-bottom:50px;
+}
+
+.thanks__text::after{
+    content: 'Thank you';
+    position: absolute;
+    font-family: "Inika";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 280px;
+    font-weight: normal;
+    color: rgba(139, 121, 105, 0.05);
+    z-index: -1;
+    white-space: nowrap;
+}
+
+.thanks__button{
+    text-align: center;
+}
+
+.thanks__button-home{
+    display: inline-block;
+    background-color: #82756A;
+    color:#ffffff;
+    text-decoration: none;
+    width:140px;
+    font-size: 20px;
+    padding: 10px 40px;
+    font-family: "Inika";
+}
